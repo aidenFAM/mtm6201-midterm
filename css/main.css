@@ -11,6 +11,7 @@ ul {
     overflow: hidden;
     border-color: #2D1136;
     border-style: solid;
+    border-width: 4px;
 }
 
 #skip a {
@@ -31,6 +32,7 @@ ul {
   li {
     display: inline;
     float: left;
+    font-family: 'Kanit', sans-serif;
   }
 
 
@@ -51,5 +53,10 @@ p {
     color: #2D1136;
 }
 
+.baking {
+    width: 50%;
+}
 
-
+.waffles {
+    float: right;
+}
