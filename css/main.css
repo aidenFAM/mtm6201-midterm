@@ -1,0 +1,55 @@
+ul {
+    float: right;
+}
+
+.text {
+    float: right;
+}
+
+#skip {
+    background-color: #E8D8FF;
+    overflow: hidden;
+    border-color: #2D1136;
+    border-style: solid;
+}
+
+#skip a {
+    
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+    float: left;
+  }
+
+
+#skip a:hover {
+    background-color: #d39fe2;
+}
+
+#skip a:active {
+    background-color: rgb(245, 255, 224);
+}
+
+.searchbarr {
+    float: right;
+}
+
+p {
+    font-family: 'Kanit', sans-serif;
+    color: #2D1136;
+}
+
+
+
