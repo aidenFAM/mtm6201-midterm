@@ -51,11 +51,15 @@ ul {
 p {
     font-family: 'Kanit', sans-serif;
     color: #2D1136;
+    font-size: x-large;
+    font-weight: bolder;
+    padding-left: 2.5rem;
 }
 
 .baking {
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
+    height: 400px;
 }
 
 .waffles {
@@ -80,4 +84,22 @@ main {
 
 h1 {
     font-family: 'Tilt Warp', cursive;
+}
+
+.fa-search {
+    color: #2D1136;
+    padding-right: 20px;
+    padding-top: 18px;
+}
+
+.logo {
+    width: 25%;
+    position: absolute;
+    display: block;
+    margin-left: 40%;
+    margin-right: 60%;    
+}
+
+.lorem1 {
+    padding-top: 2.5rem;
 }
