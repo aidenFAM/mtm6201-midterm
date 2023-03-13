@@ -64,7 +64,14 @@ p {
 
 .waffles {
     float: right;
-    width: 25%;
+    width: 50%;
+    height: 350px;
+    object-fit: cover;
+    padding-top: 2.5rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+
+
 }
 
 .fa-search {
@@ -90,6 +97,7 @@ h1 {
     color: #2D1136;
     padding-right: 20px;
     padding-top: 18px;
+    padding-left: 18px;
 }
 
 .logo {
@@ -97,9 +105,31 @@ h1 {
     position: absolute;
     display: block;
     margin-left: 40%;
-    margin-right: 60%;    
+    margin-right: 60%; 
+}
+
+.logo:hover {
+    transform: rotateY(3turn);
+  transition: transform 3s;
 }
 
 .lorem1 {
     padding-top: 2.5rem;
+    font-size: x-large;
+}
+
+#navtab {
+    font-weight: bolder;
+}
+
+.copyright {
+    font-size: large;
+}
+
+.imagecredit {
+    font-size: large;
+}
+
+.unsplash {
+    font-size: large;
 }
