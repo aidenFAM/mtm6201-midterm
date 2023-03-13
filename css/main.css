@@ -54,9 +54,30 @@ p {
 }
 
 .baking {
-    width: 50%;
+    width: 100%;
+    object-fit: contain;
 }
 
 .waffles {
     float: right;
+    width: 25%;
+}
+
+.fa-search {
+    display: flex;
+    float: right;
+}
+
+footer {
+    background-color: #e4baf1;
+    padding: 12px;
+    padding-top: 12px;
+}
+
+main {
+    background-color: #E8D8FF;
+}
+
+h1 {
+    font-family: 'Tilt Warp', cursive;
 }
