@@ -80,7 +80,7 @@ p {
 }
 
 footer {
-    background-color: #e4baf1;
+    background-color: #2D1136;
     padding: 12px;
     padding-top: 12px;
 }
@@ -110,12 +110,12 @@ h1 {
 
 .logo:hover {
     transform: rotateY(3turn);
-  transition: transform 3s;
+    transition: transform 3s;
 }
 
 .lorem1 {
     padding-top: 2.5rem;
-    font-size: x-large;
+    font-size: 28px;
 }
 
 #navtab {
@@ -124,12 +124,23 @@ h1 {
 
 .copyright {
     font-size: large;
+    color: #E8D8FF;
 }
 
 .imagecredit {
     font-size: large;
+    color: #E8D8FF;
 }
 
 .unsplash {
     font-size: large;
+    color: #E8D8FF;
+}
+
+.bringmeup {
+    color: #E8D8FF;
+}
+
+.colorforweb {
+    background-color: #e4baf1;
 }
