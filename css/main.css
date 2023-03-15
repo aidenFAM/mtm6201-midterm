@@ -41,7 +41,7 @@ ul {
 }
 
 #skip a:active {
-    background-color: rgb(245, 255, 224);
+    background-color: rgb(252, 194, 254);
 }
 
 .searchbarr {
@@ -70,7 +70,7 @@ p {
     padding-top: 2.5rem;
     padding-right: 2rem;
     padding-left: 2.5rem;
-
+    padding-bottom: 2rem;
 
 }
 
@@ -117,6 +117,7 @@ h1 {
 .lorem1 {
     padding-top: 2.5rem;
     font-size: 28px;
+    padding-bottom: 4rem;
 }
 
 #navtab {
@@ -150,14 +151,11 @@ h1 {
 }
 
 .pastry1 {
-    float: left;
     width: 30%;
     height: 350px;
     object-fit: cover;
-    padding-top: 2.5rem;
     padding-left: 2rem;
-    padding-right: 2.5rem;
-    padding-bottom: 2rem;
+    padding-right: 2rem;
 
 }
 
@@ -165,9 +163,7 @@ h1 {
     width: 30%;
     height: 350px;
     object-fit: cover;
-    padding-top: 2.5rem;
-    padding-right: 2.5rem;
-    padding-bottom: 2rem;
+
 
 }
 
@@ -175,10 +171,11 @@ h1 {
     width: 30%;
     height: 350px;
     object-fit: cover;
-    float: right;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 2.5rem;
-    padding-bottom: 2rem;
+
 }
 
 .bringmeup:hover {
