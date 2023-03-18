@@ -192,6 +192,9 @@ h1 {
 .abouth1 {
 text-align: center;
 color: #2D1136;
+font-size: 3rem;
+padding-top: 2rem;
+padding-bottom: 4rem;
 }
 
 html {
@@ -208,10 +211,13 @@ html {
 }
 
 .circledessert:hover {
-    transform: scale(1.25);
+    transform: scale(1.20);
     transition: transform 1.25s;
     transition-timing-function: ease-out;
+}
 
+.circledessert:active {
+    color: rgb(205, 202, 50);
 }
 
 .circledessert {
@@ -223,6 +229,7 @@ html {
     color: #2D1136;
     padding-bottom: 4rem;
     font-size: 3rem;
+    padding-top: 2rem;
 }
 
 button[type="submit"] {
@@ -245,7 +252,7 @@ input[type="text"], input[type="email"], textarea {
     border: 3px solid #2D1136;
     margin-bottom: 1rem;
     width: 100%;
-    max-width: 500px;
+    max-width: 650px;
 }
 
 textarea {
