@@ -197,3 +197,23 @@ color: #2D1136;
 html {
     background-color: #E8D8FF;
 }
+
+.circledessert {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    filter: drop-shadow(0 0.2rem 0.25rem);
+
+}
+
+.circledessert:hover {
+    transform: scale(1.25);
+    transition: transform 1.25s;
+    transition-timing-function: ease-out;
+
+}
+
+.circledessert {
+    transition: transform 1s 0.5s;
+}
