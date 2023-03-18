@@ -41,7 +41,7 @@ ul {
 }
 
 #skip a:active {
-    background-color: rgb(255, 0, 217);
+    background-color: #d39fe2;
 }
 
 .searchbarr {
@@ -77,6 +77,10 @@ p {
 .fa-search {
     display: flex;
     float: right;
+}
+
+.fa-search:hover {
+    color: #fc0ed0;
 }
 
 footer {
