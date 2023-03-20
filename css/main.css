@@ -179,7 +179,7 @@ h1 {
 
 /*targets the first of 3 images in the column so that the width, height, object fit, and padding is all adjusted*/
 .pastry1 {
-    width: 30%;
+    width: 28%;
     height: 350px;
     object-fit: cover;
     padding-left: 2rem;
@@ -191,7 +191,7 @@ h1 {
 /*targets the second of 3 images in the column so that the width, height, object fit, and padding is all adjusted*/
 
 .pastry2 {
-    width: 30%;
+    width: 28%;
     height: 350px;
     object-fit: cover;
     padding-bottom: 2rem;
@@ -201,7 +201,7 @@ h1 {
 
 /*targets the third of 3 images in the column so that the width, height, object fit, grid column, and padding is all adjusted*/
 .pastry3 {
-    width: 30%;
+    width: 28%;
     height: 350px;
     object-fit: cover;
     grid-column-start: 3;
